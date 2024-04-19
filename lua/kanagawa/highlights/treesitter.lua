@@ -120,9 +120,9 @@ function M.setup(colors, config)
 
         -- Markup {{{
         -- @markup.strong                              ; bold text
-        ["@markup.strong"] = { bold = true },
+        ["@markup.strong"] = { fg = theme.syn.operator, bold = true },
         -- @markup.italic                              ; italic text
-        ["@markup.italic"] = { italic = true },
+        ["@markup.italic"] = { fg = theme.syn.identifier, italic = true },
         -- @markup.strikethrough                       ; strikethrough text
         ["@markup.strikethrough"] = { strikethrough = true },
         -- @markup.underline (Underlined)              ; underlined text
